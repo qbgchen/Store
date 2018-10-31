@@ -1,0 +1,64 @@
+/*轮播图样式*/
+.app .mint-swipe{
+    height:160px;
+}
+
+.app .mint-swipe img{
+    width:100%;
+}
+.divider{
+    height:6px;
+    background: #f1f1f1;
+    box-shadow: 0 0 0 rgba(0,0,0.1) inset;
+}
+
+.app .mui-grid-view.mui-grid-9{
+    background-color:#fff;
+    border:0;
+    height:190px !important;
+}
+/*移动端图片显示要是实现图片1半大小*/
+.mui-grid-view.mui-grid-9 img{
+    width:50px;
+    height:50px;
+}
+
+.mui-grid-view.mui-grid-9 .mui-media-body{
+    font-size:12px !important;
+    line-height: 12px !important;
+}
+
+.app .mui-grid-view.mui-grid-9 .mui-table-view-cell{
+    border:0;
+    width:33%;
+    height:90px;
+    padding: 0;
+}
+
+.model1{
+    padding:2%;
+}
+/*头像图片大小样式*/
+.title img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+/*标题样式*/
+.title{
+    display: flex;   
+}
+/*标题上下边距*/
+.title h5{
+    margin-bottom:8px; 
+}
+/*标题下三张图片样式*/
+.img{
+    width:100%;
+}
+.img img{
+    width:32%;
+    height:180px;
+    margin-right: 2px;
+}
